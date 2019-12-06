@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EmpHeaders">
+      <UniqueIdentifier>{afb66fe5-620e-405f-8b9f-cc64da744cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EmpSources">
+      <UniqueIdentifier>{42baa61f-20c5-4f1e-972f-3d67cac4e288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="firstName.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="ID.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="lastName.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="socialSecurity.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Age.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Salary.cpp">
+      <Filter>Source Files\EmpSources</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sortAndSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sortAndSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ID.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="firstName.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="lastName.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="socialSecurity.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Age.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Salary.h">
+      <Filter>Header Files\EmpHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EmployeeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
